@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Homsia Futuresque",
+      "address": "Road-32, Gulshan",
+      "featured": true,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "parkings": 4,
+      "sft": 7000,
+      "description": "Discover the pinnacle of luxury living at Homsia Futuresque, an extraordinary residence nestled in the serene heart of Gulshan, just moments away from the enchanting Justice Shahabuddin Park. This prestigious apartment, spanning an impressive 7000 square feet, offers a contemporary design, seven bathrooms, and four dedicated parking spaces. Immerse yourself in a tranquil environment, enjoying the perfect balance of modern elegance and peaceful surroundings. With close proximity to the lush greenery of the park, residents can relish both nature's serenity and the vibrant energy of Gulshan. Don't miss the chance to experience the epitome of sophistication – schedule a viewing today and envision your future at Homsia Futuresque.",
+      "status": "available",
+      "images": [
+        "/assets/projects/project1a.jpg",
+        "/assets/projects/project1b.jpg",
+        "/assets/projects/project1c.jpg",
+        "/assets/projects/project1d.jpg",
+        "/assets/projects/project1e.jpg",
+        "/assets/projects/image2.jpg",
+        "/assets/projects/image5.jpg",
+        "/assets/projects/image6.jpg"
+      ]
+    }
+  ]
+}
+  
+

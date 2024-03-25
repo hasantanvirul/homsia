@@ -1,0 +1,217 @@
+/* NAV */
+.navbar {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  transition-duration: 700ms;
+}
+
+.navbar.colorChange {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  transition-duration: 700ms;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 24px 40px !important;
+  }
+  .navbar.colorChange {
+    padding: 24px 40px !important;
+  }
+}
+
+.hamburger-light{
+  background-color: white;
+  height: 2px;
+  width: 28px;
+  margin-bottom: 4px;
+  transition-duration: 700ms;
+}
+
+.hamburger-dark {
+  background-color: #000 !important;
+  height: 2px;
+  width: 28px;
+  margin-bottom: 4px;
+  transition-duration: 700ms;
+}
+
+.mobile-nav {
+  visibility: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  background-color: white;
+  color: black;
+  height: 100vh;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  width: 80%;
+  transition-duration: 500ms;
+  padding: 20px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.mobile-nav-open {
+  visibility: visible !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0 !important;
+  background-color: white;
+  color: black;
+  height: 100vh;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  width: 80%;
+  transition-duration: 500ms;
+  padding-right: 40px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+/* mobile-nav px-10 flex justify-end items-center md:invisible absolute top-0 bg-white text-black text-xl h-screen w-4/5 duration-500 shadow-xl */
+
+
+/* HERO */
+.hero {
+  background-size: cover;
+  background-position: center;
+  transition: all 3s ease-in;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.hero-text {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+.font-merriweather{
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+
+#hc1 {
+  background-image: url("./assets/heroImages/Hero1.webp");
+}
+
+#hc2 {
+  background-image: url("./assets/heroImages/creative1.webp");
+}
+
+#hc3 {
+  background-image: url("./assets/heroImages/agency.webp");
+}
+
+/* Fading animation */
+.fade {
+  transition: all 3s ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* FEATURED */
+.featuredCards .image {
+  background-size: cover;
+  background-position: center;
+  transition: all ease-in-out 0.1s;
+}
+
+.featuredCards .image:hover {
+  transform: scale(1.1);
+}
+
+/* SERVICES */
+.services-card {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: #fff;
+}
+
+.services-card:hover {
+  transform: scale(1.1);
+  color: white;
+  background: #000;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+/* CONTACT */
+.contact {
+  background-color: #000;
+  background-image: url("./assets/contactImages/contactBg.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.submit_button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.submit_button {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+/* ALL CARD IMAGES */
+
+.image, .project-img {
+  background-size: cover;
+  background-position: center;
+  transition: all ease-in-out 0.3s;
+}
+.projects-inforight{
+  /* background-color: blanchedalmond; */
+}
+.image:hover{
+  transform: scale(1.1);
+}
+
+.thumbnail-box{
+  background-size: cover;
+  background-position: center;
+}
+
