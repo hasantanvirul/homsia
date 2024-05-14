@@ -15,7 +15,7 @@ import useFetch from "../hooks/useFetch";
 const Home = () => {
   const {
     data: projects,
-  } = useFetch("http://localhost:3001/projects");
+  } = useFetch("https://homsia.net:3001/projects");
 
   return (
     <>

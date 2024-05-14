@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
-  const { data: projects } = useFetch("http://localhost:3001/projects");
+  const { data: projects } = useFetch("https://homsia.net:3001/projects");
   if (!projects) {
     return console.log("Projects loading");
   }

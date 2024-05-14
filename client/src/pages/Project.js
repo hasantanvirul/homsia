@@ -10,7 +10,7 @@ export default function Project() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:3001/projects/${id}`)
+    fetch(`https://homsia.net:3001/projects/${id}`)
       .then((response) => {
         if (response.ok) {
           return response.json();
